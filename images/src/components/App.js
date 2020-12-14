@@ -1,12 +1,22 @@
+import "./App.css";
+import React from "react";
+import SearchBar from "./SearchBar/SearchBar";
+import axios from 'axios';
 
-import './App.css';
-import SearchBar from './SearchBar/SearchBar';
-function App() {
-  return (
-    <div className="ui container"  style={{ marginTop: '10px' }}>
-      <SearchBar />
-    </div>
-  );
+class App extends React.Component {
+  
+  
+  onSearchSubmit(term) {
+    console.log(term);
+  }
+
+  render() {
+    return (
+      <div className="ui container" style={{ marginTop: "10px" }}>
+        <SearchBar onSubmit={this.onSearchSubmit} />
+      </div>
+    );
+  }
 }
 
 export default App;
