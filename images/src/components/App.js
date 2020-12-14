@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import SearchBar from './SearchBar/SearchBar';
 function App() {
   return (
     <div>
       Image Search App
+      <SearchBar />
     </div>
   );
 }
