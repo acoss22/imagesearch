@@ -3,8 +3,7 @@ import './App.css';
 import SearchBar from './SearchBar/SearchBar';
 function App() {
   return (
-    <div>
-      Image Search App
+    <div className="ui container">
       <SearchBar />
     </div>
   );
