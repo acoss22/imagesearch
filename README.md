@@ -1,7 +1,7 @@
-# imagesearch
-  A reactjs app 
+# Image Search App 
+  A React js app 
 
 # **Features**
-  Find images </ br> 
-  Upload Images </ br>
+     Find images 
+     Upload Images 
   
